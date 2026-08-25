@@ -478,8 +478,8 @@ async def receive_screenshot(update: Update, context: ContextTypes.DEFAULT_TYPE)
             caption=caption
         )
         await update.message.reply_text(
-            "✅ Screenshot received successfully.\n"
-            "Your payment will be verified."
+            "✅ Screenshot Send here - @DX_SANNJU .\n"
+            "Your payment will be CHeck Wait for Reply."
         )
 
     elif update.message.document:
@@ -489,7 +489,7 @@ async def receive_screenshot(update: Update, context: ContextTypes.DEFAULT_TYPE)
             caption=caption
         )
         await update.message.reply_text(
-            "✅ Payment proof received successfully."
+            "✅ Payment proof Send here - @DX_SANNJU."
         )
 
     else:
