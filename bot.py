@@ -449,7 +449,7 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await query.message.delete()
         await context.bot.send_message(
             chat_id=query.from_user.id,
-            text="❓ @raniivideo , @sanju100K \n\nPlease contact our support team. And Wait For Reply",
+            text=" 👀 @DX_SANJU , @sanju100K \n\nPlease contact our support team. And Wait For Reply",
             reply_markup=InlineKeyboardMarkup(keyboard)
         )
         return
