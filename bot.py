@@ -182,7 +182,7 @@ PACKAGE_DETAILS = """
 \n⭐ʙʟᴏᴡ ᴊᴏʙ/ꜱᴜᴄᴋɪɴɢ
 \n⭐ʀᴜꜱꜱɪᴀɴ (ɢʀᴏᴜᴘ)
 
-\n ᴘʀɪᴄᴇ - 1999₹ 🪙  @Raniivideo 
+\n ᴘʀɪᴄᴇ - 1999₹ 🪙  @DX_SANJU
 \n ɪɴᴛᴇʀɴᴀᴛɪᴏɴᴀʟ ᴘʀɪᴄᴇ - 99$💰
 
 \n 500 ɢʙ ᴍᴇɢᴀ ʟɪɴᴋ ꜰʀᴇᴇ📍
@@ -260,7 +260,7 @@ def payment_page_keyboard():
         [
             InlineKeyboardButton(
                 "📸 Send Payment Screenshot For verification",
-                url="https://t.me/Raniivideo"
+                url="https://t.me/DX_SANJU"
             )
         ],
         [
