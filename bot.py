@@ -137,7 +137,7 @@ sanjubaba-international@cnrb
 REVOLUT_DETAILS = """
 💳 Revolut
 
-@Raniivideo Dm me 
+@DX_SANJU Dm me 
 """
 
 CRYPTO_DETAILS = """
