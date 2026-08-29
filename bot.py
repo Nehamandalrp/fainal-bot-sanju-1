@@ -137,7 +137,7 @@ sanjubaba-international@cnrb
 REVOLUT_DETAILS = """
 💳 Revolut
 
-@DX_SANJU Dm me 
+@GOJOxSELLS Dm me 
 """
 
 CRYPTO_DETAILS = """
@@ -182,7 +182,7 @@ PACKAGE_DETAILS = """
 \n⭐ʙʟᴏᴡ ᴊᴏʙ/ꜱᴜᴄᴋɪɴɢ
 \n⭐ʀᴜꜱꜱɪᴀɴ (ɢʀᴏᴜᴘ)
 
-\n ᴘʀɪᴄᴇ - 1999₹ 🪙  @DX_SANJU
+\n ᴘʀɪᴄᴇ - 1999₹ 🪙  @GOJOxSELLS
 \n ɪɴᴛᴇʀɴᴀᴛɪᴏɴᴀʟ ᴘʀɪᴄᴇ - 99$💰
 
 \n 500 ɢʙ ᴍᴇɢᴀ ʟɪɴᴋ ꜰʀᴇᴇ📍
@@ -260,7 +260,7 @@ def payment_page_keyboard():
         [
             InlineKeyboardButton(
                 "📸 Send Payment Screenshot For verification",
-                url="https://t.me/DX_SANJU"
+                url="https://t.me/GOJOxSELLS"
             )
         ],
         [
@@ -449,7 +449,7 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await query.message.delete()
         await context.bot.send_message(
             chat_id=query.from_user.id,
-            text=" 👀 @DX_SANJU , @sanju100K \n\nPlease contact our support team. And Wait For Reply",
+            text=" 👀 @GOJOxSELLS , @GOJOxSELLS \n\nPlease contact our support team. And Wait For Reply",
             reply_markup=InlineKeyboardMarkup(keyboard)
         )
         return
@@ -478,7 +478,7 @@ async def receive_screenshot(update: Update, context: ContextTypes.DEFAULT_TYPE)
             caption=caption
         )
         await update.message.reply_text(
-            "✅ Screenshot Send here - @DX_SANNJU .\n"
+            "✅ Screenshot Send here - @GOJOxSELLS .\n"
             "Your payment will be CHeck Wait for Reply."
         )
 
@@ -489,7 +489,7 @@ async def receive_screenshot(update: Update, context: ContextTypes.DEFAULT_TYPE)
             caption=caption
         )
         await update.message.reply_text(
-            "✅ Payment proof Send here - @DX_SANNJU."
+            "✅ Payment proof Send here - @GOJOxSELLS."
         )
 
     else:
