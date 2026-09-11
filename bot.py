@@ -259,7 +259,7 @@ def payment_page_keyboard():
     keyboard = [
         [
             InlineKeyboardButton(
-                "📸 Send Payment Screenshot For verification",
+                "📸 Upload YOur Payment Proof ",
                 url="https://t.me/GOJOxSELLS"
             )
         ],
