@@ -100,10 +100,10 @@ Step 3️⃣ Wait For Reply
 """
 
 PAYPAL_DETAILS = """
-💳 PayPal
+💳 Amazon
 
-PayPal:
-Username - @Rajkamalhero  
+Amazon gift card :
+ - @GOJOxSELLS Dm me 
 Step 1️⃣ Send Payment
 
 Step 2️⃣ Send Payment Screenshot For Verification
