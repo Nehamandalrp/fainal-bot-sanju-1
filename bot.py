@@ -298,7 +298,7 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await query.message.delete()
         await context.bot.send_message(
             chat_id=query.from_user.id,
-            text="Which Category Do You Want?",
+            text="6000 People Already Use this /n 100% Trusted ⭐️⭐️⭐️⭐️⭐️ /n Which Category Do You Want?",
             reply_markup=main_menu_keyboard()
         )
         return
