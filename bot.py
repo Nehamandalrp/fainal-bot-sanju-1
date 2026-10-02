@@ -276,6 +276,8 @@ def payment_page_keyboard():
 # ============================================================
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    text = "6000 People Already Use this "
+    text = "100% Trusted ⭐️⭐️⭐️⭐️⭐️"
     text = "Which Category Do You Want?"
     await update.message.reply_text(text, reply_markup=main_menu_keyboard())
 
