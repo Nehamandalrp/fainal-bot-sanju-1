@@ -276,7 +276,7 @@ def payment_page_keyboard():
 # ============================================================
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    text = "Which Category Do You Want?"
+    text="👥 6000+ Members Already Use This Bot\n⭐ 4.5 Star Rated\n✅ 100% Trusted\n\nWhich Category Do You Want?",
     await update.message.reply_text(text, reply_markup=main_menu_keyboard())
 
 
@@ -296,7 +296,7 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await query.message.delete()
         await context.bot.send_message(
             chat_id=query.from_user.id,
-            text="Which Category Do You Want?",
+            text="👥 6000+ Members Already Use This Bot\n⭐ 4.5 Star Rated\n✅ 100% Trusted\n\nWhich Category Do You Want?",
             reply_markup=main_menu_keyboard()
         )
         return
