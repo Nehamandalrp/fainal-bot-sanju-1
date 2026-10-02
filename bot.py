@@ -272,11 +272,12 @@ def payment_page_keyboard():
 
 
 # ============================================================
+
 # START
 # ============================================================
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    text="Which Category Do You Want?",
+    text = "Which Category Do You Want?"
     await update.message.reply_text(text, reply_markup=main_menu_keyboard())
 
 
@@ -300,7 +301,6 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
             reply_markup=main_menu_keyboard()
         )
         return
-
     # --------------------------------------------------------
     # CATEGORY (SEND IMAGE + TEXT)
     # --------------------------------------------------------
