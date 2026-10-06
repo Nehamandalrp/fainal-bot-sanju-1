@@ -99,7 +99,7 @@ Step 2️⃣ Send Payment Screenshot For Verification
 Step 3️⃣ Wait For Reply
 """
 
-AMAZON_DETAILS = """
+PAYPAL_DETAILS = """
 💳 Amazon
 
 Amazon gift card :
