@@ -478,7 +478,7 @@ async def receive_screenshot(update: Update, context: ContextTypes.DEFAULT_TYPE)
             caption=caption
         )
         await update.message.reply_text(
-            "✅ Screenshot Send here - @GOJOxSELLS .\n"
+            "✅ Screenshot Send here - @GOJOxSELLS - @Sanju100D .\n"
             "Your payment will be CHeck Wait for Reply."
         )
 
