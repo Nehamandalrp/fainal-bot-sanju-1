@@ -277,7 +277,7 @@ def payment_page_keyboard():
 # ============================================================
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    text = "Which Category Do You Want?"
+    text = "Which Category Do You Want? 0"
     await update.message.reply_text(text, reply_markup=main_menu_keyboard())
 
 
